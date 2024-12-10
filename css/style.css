@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans;
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fons/OpenSans-Regular.ttf);
+}
+header h2{
+    padding: 2% 1%;
+}
+body main{
+   padding: 0px 1%;
+}
+h2{
+    padding: 20px 0;
+}
+header{
+    background: rgb(235, 235, 235);
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: brown;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+header nav ul li{
+    border-left: 1px solid gray;
+    padding: 15px;
+    text-align: center;
+}
+header nav ul{
+    border: 1px solid gray;
+    display: flex;
+}
+main{
+    padding: 15px 0;
+    display: grid;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+aside{
+    border-right: 1px solid gray;
+    padding: 0px 15px;
+    height: 100%;
+}
+main div{
+    padding: 0px 13px;
+    border-right: 1px solid gray;
+}
+aside ul{
+    display: grid;
+    padding: 8px 0;
+    row-gap: 8%;
+}
+footer{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px 0 30px;
+    background: rgb(235, 235, 235);
+}
